@@ -1,0 +1,57 @@
+body {
+	background-color: rgb(200, 0, 200); /* bakgrunnsfargen*/
+	font-family: "Verdana", Arial, sans-serif;
+	font-size: 14px;
+	color: #323232; /* en svært mørk gråfarge*/
+}
+div {
+
+}
+ul {
+	list-style-type: none; /*fjerner kulepunkter*/
+	margin: 0; /* fjerner alle mellomrom */
+	padding: 0; /*fjerner alle mellomrom */
+}
+ul li {
+	display: block; /* gjør om lenker til block */
+	width: 770px; /* bredde på boks */
+	padding: 10px; /* avstand mellom bokskant og innhold */
+	border-radius: 5px; /* avrunder kant */
+	margin: 2px; /* avstand mellom bokser */
+	color:  rgb(231,230,227); /* mørkegrå tekst */
+	font-weight: bold; /* fet tekst */
+	text-decoration: none; /* fjerner understrek */
+	background-color: #404040; /* farge på boks */
+}
+
+ul li:hover {
+	background-color: rgb(200, 0, 200); /* farge på boks med piltast over */
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+}
+body {
+	background-image: url(); <!-- Når du skal ha et bilde som bakgrunn-->
+	backgroundorepeat: repeat; <!-- Når bildet skal følge hele nettsiden -->
+}
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: rgb(42, 70, 255);
+}
+
+h5 {
+	color: #111111
+}
+
+div {
+	background-color: rgb(231,230,227);
+	width: 800px;
+	height; 100%;
+	border-radius: 5px;
+}
